@@ -1,7 +1,7 @@
 actions:
   ruby:
-    version: 2.6.3
-    bundle: 2.5.7
+    version: 2.7.3
+    bundle: 2.4.22
 veracode_sca_scan:
   build:
     predependency_command: "gem pristine --all --only-executables"
